@@ -13,9 +13,9 @@ The new model checkpoints were saved in the FAU_CA_AI_final_model.pth file. The 
 
 If you would like just to run the code that loads the models and computes the inference cost in the sandbox, it is only required to change the path to the dataset (i.e., variable dataset_path in line 24 of FAU_CA_AI_SOURCE.py). The code will print the accuracy obtained by the proposed optimized model i.e., 57.19%. If you wish to get the test accuracy of the baseline model you will need to uncomment lines 217-271 in FAU_CA_AI_SOURCE.py.
 
-If you wish to re-train the baseline model from scratch you will need to uncomment lines 176-207 and the name of the FAU_CA_AI_baseline_model.pth checkpoint file should be changed so that you will not overwrite the one that we provided. 
+If you wish to re-train the baseline model from scratch, you will need to uncomment lines 176-207. 
 
-If you wish to re-train the proposed optimized model from scratch, you will need to uncomment lines 428-454, and the name of the FAU_CA_AI_final_model.pth checkpoint file should be changed so that you will not overwrite the one that we provided. 
+If you wish to re-train the proposed optimized model from scratch, you will need to uncomment lines 428-454.
 
 # FAU CA-AI Team (web: https://ca-ai.fau.edu)
 Giulia Muscara, Visiting M.S. student, Sapienza University of Rome, Rome, Italy |
