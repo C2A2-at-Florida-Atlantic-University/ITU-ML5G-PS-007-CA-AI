@@ -371,9 +371,6 @@ for i in range(1, len(s_list)):
 
 print(filters)
 
-#uncomment below for saved filters
-#filters = [11, 23, 32, 36, 39, 43] 
-
 #Building the network with a variable number of convolutional layers every time
 num_layers = len(filters)
 
@@ -454,6 +451,7 @@ for epoch in tqdm(range(num_epochs), desc="Epochs"):
     print(end - start)
 
 torch.save(model2.state_dict(), "FAU_CA_AI_final_model.pth")
+"""
 
 batch_size=500
 savefile = "FAU_CA_AI_final_model.pth"
@@ -462,10 +460,9 @@ model2.load_state_dict(saved_state)
 if gpu is not None:
     model2 = model2.cuda()
 
-"""
 
-# uncomment to get test accuracy of optimized network
-"""
+# get test accuracy of optimized network
+
 dataset = radioml_18_dataset(dataset_path)
 data_loader_test = DataLoader(dataset, batch_size=batch_size, sampler=dataset.test_sampler)
 
@@ -494,7 +491,7 @@ for i in range(0,len(dataset.mod_classes)):
 cor = np.sum(np.diag(conf))
 ncor = np.sum(conf) - cor
 print("Overall Accuracy across all SNRs of the optimized network: %f"%(cor / (cor+ncor)))
-"""
+
 
 #Computing inference cost for the original baseline and the optimized network
 
