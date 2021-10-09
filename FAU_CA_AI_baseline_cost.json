@@ -1,0 +1,10 @@
+{
+  "discount_sparsity": true,
+  "mem_o_FLOAT32": 124760.0,
+  "mem_w_FLOAT32": 225280.0,
+  "op_mac_FLOAT32_FLOAT32": 31477760.0,
+  "total_bops": 32233226240.0,
+  "total_mem_o_bits": 3992320.0,
+  "total_mem_w_bits": 7208960.0,
+  "unsupported": "set()"
+}
