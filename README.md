@@ -1,5 +1,5 @@
 # ITU-ML5G-PS-007: Lightning-Fast Modulation Classification with Hardware-Efficient Neural Networks
-The repository ontains python source code (FAU_CA_AI_SOURCE.py) for training and testing 
+The repository contains python source code (FAU_CA_AI_SOURCE.py) for training and testing 
 
 1) a baseline model -- The baseline model weights checkpoint are saved in the FAU_CA_AI_baseline.pth file
 2) the proposed optimized model (FAU_CA_AI_final_model.pth) --  whose inference cost is the one to be considered for evaluation for the ITU-ML5G-PS-007 competition
