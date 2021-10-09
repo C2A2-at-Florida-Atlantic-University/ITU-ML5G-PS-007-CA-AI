@@ -16,7 +16,7 @@ If you would like just to run the code that loads the models and computes the in
 If you wish to re-train the baseline model from scratch you will need to uncomment lines XXX-XXX and the name of the FAU_CA_AI_baseline_model.pth checkpoint file should be changed so that you will not overwrite the one that we provided. If you wish to re-train the proposed optimized model from scratch, you will need to uncomment lines 428-454, and the name of the FAU_CA_AI_final_model.pth checkpoint file should be changed so that you will not overwrite the one that we provided. 
 
 # FAU CA-AI Team https://ca-ai.fau.edu 
-Giulia Muscara, Visiting M.S. students, LaSapienza University, Rome, Italy |
+Giulia Muscara, Visiting M.S. student, Sapienza University of Rome, Rome, Italy |
 E-mail: gmuscara2021@fau.edu
 
 Dariush Hassan, Undergraduate student researcher, Florida Atlantic University, Boca Raton, FL |
