@@ -11,7 +11,7 @@ We introduce a neural network optimization technique based on multi-linear princ
 
 The new model checkpoints were saved in the FAU_CA_AI_final_model.pth file. The inference cost is calculated by the sandbox at 4.3. The parts of the python code required to train both models are commented. 
 
-If you would like just to run the code that loads the models and computes the inference cost in the sandbox, it is only required to change the path to the data set in the variable dataset_path. The code will print the accuracy obtained by the proposed optimized model i.e., 57.19%. 
+If you would like just to run the code that loads the models and computes the inference cost in the sandbox, it is only required to change the path to the dataset (i.e., variable dataset_path in line 24 of FAU_CA_AI_SOURCE.py). The code will print the accuracy obtained by the proposed optimized model i.e., 57.19%. 
 
 If you wish to re-train the baseline model from scratch you will need to uncomment lines XXX-XXX and the name of the FAU_CA_AI_baseline_model.pth checkpoint file should be changed so that you will not overwrite the one that we provided. If you wish to re-train the proposed optimized model from scratch, you will need to uncomment lines 428-454, and the name of the FAU_CA_AI_final_model.pth checkpoint file should be changed so that you will not overwrite the one that we provided. 
 
